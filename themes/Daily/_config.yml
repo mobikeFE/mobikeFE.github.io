@@ -6,7 +6,7 @@ favicon: https://hexo.io/icon/favicon-96x96.png
 # avatar: images/avatar.png
 # banner_small: images/banner-small.png
 # banner_large: images/banner-large.png
-logo: https://hexo.io/logo.svg
+logo: /images/logo.jpg
 
 # disqus
 #disqus_shortname: drakeleung
@@ -19,9 +19,9 @@ highlight:
 
 # nav #
 nav:
-  home: .
-  archive: archives
-  # about: about
+  Home: .
+  # archive: archives
+  About: about
   # rss: atom.xml
 
 # hexo-renderer-sass

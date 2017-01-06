@@ -38,4 +38,12 @@ var appDaily = {
   }
 };
 
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fc2bdb95d4753fa08ba0d4bb8ebecfd6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
 appDaily.bindToggleButton();

@@ -5,7 +5,7 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "deploy": "./node_modules/hexo/bin/hexo generate && ./node_modules/hexo/bin/hexo deploy"
+    "deploy": "rm -rf public && ./node_modules/hexo/bin/hexo generate && ./node_modules/hexo/bin/hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.2.0",

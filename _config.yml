@@ -70,4 +70,3 @@ theme: Daily
 deploy:
   type: git
   repo: https://github.com/mobikeFE/mobikeFE.github.io
-  branch: gh-pages

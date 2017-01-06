@@ -69,5 +69,5 @@ theme: Daily
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/mobike-fe/mobike-fe.github.io
+  repo: https://github.com/mobikeFE/mobikeFE.github.io
   branch: gh-pages

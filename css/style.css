@@ -718,7 +718,7 @@ Footer
   left: 0;
   padding-left: 50px;
   padding-right: 50px;
-  height: 70px;
+  height: 100px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -749,7 +749,7 @@ Footer
     display: inline-block; }
     .logo a img {
       display: block;
-      height: 60px; }
+      height: 80px; }
 
 .navbar {
   float: right;

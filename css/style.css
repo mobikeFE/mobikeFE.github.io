@@ -711,14 +711,14 @@ Footer
 .site-header {
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #dcdcdc;
+  /*border-bottom: 1px solid #dcdcdc;*/
   z-index: 30;
   position: fixed;
   top: 0;
   left: 0;
   padding-left: 50px;
   padding-right: 50px;
-  height: 100px;
+  height: 140px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -850,6 +850,7 @@ code {
   border-radius: 3px; }
 
 pre .line {
+  white-space: normal;
   min-height: 1em; }
 
 .highlight {
@@ -1039,6 +1040,15 @@ pre {
   display: none; }
 
 @media screen and (max-width: 767px) {
+  .site-header{
+    height: 80px;
+  }
+  .content-area{
+    padding-top: 0;
+  }
+  .post{
+    padding-top: 10px;
+  }
   .logo a img {
     height: 36px; }
   .site-content {
@@ -1065,7 +1075,7 @@ pre {
         .site-header .navbar ul li::before {
           display: none; }
     .site-header .button-wrap {
-      display: block; }
+      display: none; }
   .post .nav-links {
     display: none; }
   .footer-widgets .row .col-1-1,

@@ -5,6 +5,9 @@
         <% if (config.logo || theme.logo) { %>
         <img src="<%- config.logo || theme.logo %>" alt="<%- config.title %>" height="60">
         <% } %>
+        <% if (config.title || theme.title) { %>
+        <b class="logo-title"><%- config.title || theme.title %></b>
+        <% } %>
       </a>
     </div>
     <!-- Navigation -->

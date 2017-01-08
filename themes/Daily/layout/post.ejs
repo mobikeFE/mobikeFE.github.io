@@ -14,7 +14,9 @@
           <p class="posted-on">
           <%= page.date.format(config.date_format) %>
           <% if (page.author) { %>
-            <%= page.author %>
+            <a href="<%= config.root %>authors/<%= page.author %>/" rel="author">
+              <%- page.author %>
+            </a>
           <% } %>
           </p>
           <div class="tags-links">

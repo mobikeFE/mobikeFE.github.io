@@ -13,6 +13,9 @@
           </h1>
           <p class="posted-on">
           <%= page.date.format(config.date_format) %>
+          <% if (page.author) { %>
+            <%= page.author %>
+          <% } %>
           </p>
           <div class="tags-links">
             <% if (page.tags) { %>
@@ -26,7 +29,7 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <img src="<%- page.photos[0] %>" alt="<%- page.title %>" class="attachment-post">
+          <img src="<%- page.photos %>" alt="<%- page.title %>" class="attachment-post">
           <%- page.content %>
         </div>
       </article>

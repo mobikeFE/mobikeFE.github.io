@@ -141,7 +141,7 @@
 <li>无法操作<code>DOM</code>，通过改变<code>page data</code>（类似<code>React</code>的state）来改变视图展现</li>
 </ul>
 <p>所以如果你熟悉以上提到的所有前端技术栈，开发微信小程序你会得心应手。</p>
-<h2 id="声明周期"><a href="#声明周期" class="headerlink" title="声明周期"></a>声明周期</h2><p>你可以理解小程序就是一个单页面的H5网页，所有元素的加载都是一次性的，这就引来了声明周期的概念：</p>
+<h2 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h2><p>你可以理解小程序就是一个单页面的H5网页，所有元素的加载都是一次性的，这就引来了生命周期的概念：</p>
 <p><img src="/images/mobike-x-wechat-1.png" alt="mobike-wechatapp"></p>
 <ul>
 <li>首次打开，小程序初始化</li>
@@ -150,7 +150,7 @@
 <li>小程序从后台切换到前台，再次触发<code>onShow</code></li>
 <li>小程序出错，触发<code>onError</code></li>
 </ul>
-<p>每个页面也有自己的声明周期：</p>
+<p>每个页面也有自己的生命周期：</p>
 <p><img src="/images/mobike-x-wechat-2.png" alt="mobike-wechatapp"></p>
 <blockquote>
 <p>注意：在微信6.5.3版本中，部分Android机触发不了<code>onLoad</code>事件，可以用<code>onReady</code>替代。</p>

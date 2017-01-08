@@ -857,7 +857,7 @@ code {
   border-radius: 3px; }
 
 pre .line {
-  white-space: normal;
+  /*white-space: normal;*/
   min-height: 1em; }
 
 .highlight {
@@ -1077,7 +1077,7 @@ pre {
       top: 70px;
       padding: 15px 0 15px 30px;
       width: 100%;
-      background: #efefef;
+      background: #fff;
       border-bottom: 1px solid #dcdcdc;
       box-shadow: 0 2px 3px #dfdfdf;
       z-index: 9999; }
@@ -1087,7 +1087,7 @@ pre {
         .site-header .navbar ul li::before {
           display: none; }
     .site-header .button-wrap {
-      display: none; }
+      display: block; }
   .post .nav-links {
     display: none; }
   .footer-widgets .row .col-1-1,
